@@ -20,18 +20,27 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- header area start -->
-    <div class="container mx-auto xl:px-[100px] px-5 xl:py-[60px]">
+    <div
+      class="container mx-auto xl:px-[100px] px-5 xl:py-[60px] max-w-[1440px]"
+    >
       <header class="flex justify-between">
         <!-- logo area start -->
         <a href="#">
           <img class="w-[219.54px] h-[36px]" src="images/Logo.png" alt="" />
         </a>
         <!-- logo area start -->
-        <nav class="flex">
+        <!-- <nav class="flex">
           <ul class="flex">
             <li class="mr-10 text-xl"><a href="#"> About Us </a></li>
             <li class="mr-10 text-xl"><a href="#"> Services </a></li>
@@ -40,41 +49,47 @@
             <li class="mr-10 text-xl"><a href="#"> Blog </a></li>
           </ul>
           <button
-            class="text-xl border border-black px-[35px] py-5 rounded-[14px] -mt-3"
+            class="text-xl border border-black px-[35px] py-5 rounded-[14px] -mt-3 hover:bg-black hover:text-white transition-all duration-300"
           >
             Request a quote
           </button>
-        </nav>
+        </nav> -->
       </header>
     </div>
     <!-- header area end -->
     <!-- banner area start -->
-    <div class="container mx-auto xl:px-[100px] px-5 pt-[70px]">
-      <div class="grid xl:grid-cols-2 grid-cols-1 gap-x-[108.54px]">
+    <div
+      class="container mx-auto xl:px-[100px] px-5 pt-[70px] xl:max-w-[1440px] w-full"
+    >
+      <div class="grid xl:grid-cols-2 grid-cols-1 xl:gap-x-[108.54px]">
         <div>
-          <h1 class="text-6xl font-medium !leading-[1.3]">
-            Navigating the digital landscape <br />
-            for success
+          <h1 class="xl:text-6xl text-4xl font-medium !leading-[1.3]">
+            Navigating the digital landscape for success
           </h1>
+          <img
+            class="xl:hidden block xl:mt-0 mt-5"
+            src="images/banner-img.png"
+            alt=""
+          />
           <p class="py-[35px] text-xl">
             Our digital marketing agency helps businesses grow and succeed
             online through a range of services including SEO, PPC, social media
             marketing, and content creation.
           </p>
           <button
-            class="text-xl bg-black px-[35px] py-5 text-white rounded-[14px]"
+            class="text-xl bg-black xl:w-[264px] w-full h-[68px] text-white rounded-[14px] border border-black hover:bg-transparent hover:text-black hover:border hover:border-black transition-all duration-300"
           >
             Book a consultation
           </button>
         </div>
         <div>
-          <img class="" src="images/banner-img.png" alt="" />
+          <img class="xl:block hidden" src="images/banner-img.png" alt="" />
         </div>
       </div>
     </div>
     <!-- banner area end -->
     <!-- brand logo area start -->
-    <div class="container mx-auto xl:px-[100px] px-5 pt-[70px]">
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[70px] max-w-[1440px]">
       <!-- Swiper -->
       <div class="swiper Swiperbrand">
         <div class="swiper-wrapper">
@@ -109,8 +124,885 @@
     </div>
     <!-- brand logo area end -->
     <!-- service area start -->
-    <div class="container mx-auto xl:px-[100px] pt-[140px]"></div>
+    <div
+      class="container mx-auto xl:px-[100px] px-5 pt-[140px] pb-10 max-w-[1440px]"
+    >
+      <div class="xl:flex">
+        <h2
+          class="text-[40px] xl:mx-0 mx-auto font-medium rounded-[7px] text-center bg-[#B9FF66] w-[178px] h-[51px] items-center flex justify-center"
+        >
+          Services
+        </h2>
+        <p class="xl:ml-10 text-[18px] xl:pt-0 pt-5 xl:text-left text-center">
+          At our digital marketing agency, we offer a range of services to
+          <br />
+          help businesses grow and succeed online. These services include:
+        </p>
+      </div>
+      <div class="pt-[80px] grid xl:grid-cols-2 grid-cols-1 gap-10">
+        <div
+          class="bg-[#F3F3F3] border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[221px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Search engine
+              </h3>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[197px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                optimization
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-black text-[#B9FF66] w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] xl:block hidden"> Learn more</span>
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img1.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#B9FF66] border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-white text-[30px] font-medium w-[209px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Pay-per-click
+              </h3>
+              <h3
+                class="bg-white text-[30px] font-medium w-[178px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                advertising
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-black text-[#B9FF66] w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] xl:block hidden"> Learn more</span>
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img2.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-black border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-white text-[30px] font-medium w-[197px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Social Media
+              </h3>
+              <h3
+                class="bg-white text-[30px] font-medium w-[161px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Marketing
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-white text-black w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] text-white xl:block hidden">
+                    Learn more</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img3.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#F3F3F3] border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[90px] h-[38px] px-[7px] rounded-[7px] flex items-center"
+              >
+                Email
+              </h3>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[161px] h-[38px] px-[7px] rounded-[7px] flex items-center"
+              >
+                Marketing
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-black text-[#B9FF66] w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] xl:block hidden"> Learn more</span>
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img4.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-[#B9FF66] border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-white text-[30px] font-medium w-[133px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Content
+              </h3>
+              <h3
+                class="bg-white text-[30px] font-medium w-[137px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Creation
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-black text-[#B9FF66] w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] xl:block hidden"> Learn more</span>
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img5.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-black border border-black border-b-[6px] rounded-[45px] pt-[50px] pl-[50px] pb-[50px]"
+        >
+          <div class="grid grid-cols-2 gap-x-[59px]">
+            <div>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[213px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Analytics and
+              </h3>
+              <h3
+                class="bg-[#B9FF66] text-[30px] font-medium w-[138px] h-[38px] px-[7px] rounded-[7px] flex items-center justify-center"
+              >
+                Tracking
+              </h3>
+              <div class="pt-[93px] text-xl">
+                <a class="flex items-center" href="#">
+                  <i
+                    class="fa-solid fa-arrow-right bg-white text-black w-[41px] h-[41px] rounded-full items-center flex justify-center -rotate-[30deg] hover:rotate-0 transition-all duration-300"
+                  ></i>
+                  <span class="ml-[15px] text-white xl:block hidden">
+                    Learn more</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div class="my-auto">
+              <img src="images/card-img6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- service area end -->
+    <!-- section start -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[83px] max-w-[1440px]">
+      <div
+        class="bg-[#F3F3F3] rounded-[45px] xl:max-w-[1240px] w-full xl:h-[347px]"
+      >
+        <div class="grid xl:grid-cols-2 grid-cols-1 gap-[186px]">
+          <div class="xl:p-[60px] p-10">
+            <h3 class="text-[30px] font-medium">Let’s make things happen</h3>
+            <p class="text-[18px] py-[26px]">
+              Contact us today to learn more about how our digital marketing
+              services can help your business grow and succeed online.
+            </p>
+            <button
+              class="bg-black px-[35px] py-5 rounded-[14px] text-white text-xl border border-black hover:border hover:border-black hover:bg-transparent transition-all duration-300 hover:text-black"
+            >
+              Get your free proposal
+            </button>
+          </div>
+          <div class="xl:block hidden">
+            <img class="-mt-[23px]" src="images/01.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section end -->
+    <!-- case studie area sart  -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[135px] max-w-[1440px]">
+      <div class="xl:flex">
+        <h2
+          class="xl:text-[40px] xl:mx-0 mx-auto text-2xl font-medium text-center bg-[#B9FF66] w-[265px] h-[51px] rounded-[7px] items-center flex justify-center"
+        >
+          Case Studies
+        </h2>
+        <p class="xl:ml-10 text-[18px] xl:text-left text-center xl:pt-0 pt-5">
+          Explore Real-Life Examples of Our Proven Digital <br />
+          Marketing Success through Our Case Studies
+        </p>
+      </div>
+      <div
+        class="bg-[#191A23] text-white mt-[86px] rounded-[45px] max-w-[1234px] h-326px"
+      >
+        <div class="xl:flex pt-[70px] pb-[93px] px-[60px]">
+          <div>
+            <p class="pb-5">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a class="text-[#B9FF66] text-xl flex items-center group" href="#">
+              <span>Learn More</span>
+              <i
+                class="fa-solid fa-arrow-right ml-[15px] -rotate-[30deg] group-hover:rotate-0 transition-all duration-300"
+              ></i>
+            </a>
+          </div>
+          <div class="border border-r mx-16 xl:block hidden"></div>
+          <div>
+            <p class="pb-5">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a class="text-[#B9FF66] text-xl flex items-center group" href="#">
+              <span>Learn More</span>
+              <i
+                class="fa-solid fa-arrow-right ml-[15px] -rotate-[30deg] group-hover:rotate-0 transition-all duration-300"
+              ></i>
+            </a>
+          </div>
+          <div class="border border-r mx-16 xl:block hidden"></div>
+          <div>
+            <p class="pb-5">
+              For a local restaurant, we implemented a targeted PPC campaign
+              that resulted in a 50% increase in website traffic and a 25%
+              increase in sales.
+            </p>
+            <a class="text-[#B9FF66] text-xl flex items-center group" href="#">
+              <span>Learn More</span>
+              <i
+                class="fa-solid fa-arrow-right ml-[15px] -rotate-[30deg] group-hover:rotate-0 transition-all duration-300"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- case studie area end -->
+    <!-- faq area start -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[140px] max-w-[1440px]">
+      <div class="xl:flex">
+        <h2
+          class="xl:text-[40px] xl:mx-0 mx-auto text-2xl font-medium text-center bg-[#B9FF66] w-[412px] h-[51px] rounded-[7px] items-center flex justify-center"
+        >
+          Our Working Process
+        </h2>
+        <p class="xl:ml-10 xl:text-left text-center xl:pt-0 pt-5 text-[18px]">
+          Step-by-Step Guide to Achieving <br />
+          Your Business Goals
+        </p>
+      </div>
+      <div class="pt-20">
+        <div
+          class="collapse collapse-plus bg-[#F3F3F3] mb-[30px] xl:px-[60px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div
+            class="collapse-title xl:text-[50px] text-3xl xl:h-[159px] h-28 font-medium flex items-center pt-[41px]"
+          >
+            <span class="xl:text-6xl text-2xl pr-[25px]">01</span>
+            <h3 class="xl:text-3xl text-2xl">Consultation</h3>
+          </div>
+          <div class="collapse-content">
+            <p>
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+        <div
+          class="collapse collapse-plus bg-[#F3F3F3] mb-[30px] xl:px-[60px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div
+            class="collapse-title xl:text-[50px] text-2xl font-medium xl:h-[159px] h-28 flex items-center pt-[41px]"
+          >
+            <span class="xl:text-6xl text-3xl pr-[25px]">02</span>
+            <h3 class="xl:text-3xl text-2xl">
+              Research and Strategy Development
+            </h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-[18px]">
+              During the initial consultation, we will discuss your business
+              goals and objectives, target audience, and current marketing
+              efforts. This will allow us to understand your needs and tailor
+              our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+        <div
+          class="collapse collapse-plus xl:px-[60px] bg-[#F3F3F3] mb-[30px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div
+            class="collapse-title xl:text-[50px] text-2xl xl:h-[159px] h-28 pt-[41px] font-medium flex items-center"
+          >
+            <span class="xl:text-6xl text-3xl pr-[25px]">03</span>
+            <h3 class="xl:text-[30px]">Implementation</h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-[18px]">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              accusamus ut modi voluptate dolor, nobis temporibus recusandae est
+              provident praesentium.
+            </p>
+          </div>
+        </div>
+        <div
+          class="collapse collapse-plus xl:px-[60px] bg-[#F3F3F3] mb-[30px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div
+            class="collapse-title xl:text-[50px] text-2xl xl:h-[159px] h-28 pt-[41px] font-medium flex items-center"
+          >
+            <span class="xl:text-6xl text-3xl pr-[25px]">04</span>
+            <h3 class="xl:text-[30px]">Monitoring and Optimization</h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-[18px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              exercitationem doloribus facilis asperiores modi nesciunt corrupti
+              sed facere placeat. Debitis?
+            </p>
+          </div>
+        </div>
+        <div
+          class="collapse collapse-plus xl:px-[60px] bg-[#F3F3F3] mb-[30px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div
+            class="collapse-title xl:text-[50px] text-2xl xl:h-[159px] h-28 pt-[41px] font-medium flex items-center"
+          >
+            <span class="xl:text-6xl text-3xl pr-[25px]">05</span>
+            <h3 class="xl:text-[30px]">Reporting and Communication</h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-[18px]">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptate enim quam amet illo corporis eum adipisci molestias, non
+              nesciunt veritatis?
+            </p>
+          </div>
+        </div>
+        <div
+          class="collapse collapse-plus xl:px-[60px] bg-[#F3F3F3] mb-[30px] border border-[#191A23] border-b-[6px] rounded-[45px]"
+        >
+          <input type="radio" name="my-accordion-3" />
+          <div
+            class="collapse-title xl:text-[50px] text-2xl xl:h-[159px] h-28 pt-[41px] font-medium flex items-center"
+          >
+            <span class="xl:text-6xl text-3xl pr-[25px]">06</span>
+            <h3 class="xl:text-[30px] text-2xl">Continual Improvement</h3>
+          </div>
+          <div class="collapse-content">
+            <p class="text-[18px]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda, voluptates ea. Ab dicta beatae quae animi asperiores
+              necessitatibus, dolor doloremque.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- faq area end -->
+    <!-- team area start -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[140px] max-w-[1440px]">
+      <div class="xl:flex">
+        <h2
+          class="text-[40px] xl:mx-0 mx-auto font-medium text-center bg-[#B9FF66] w-[115px] h-[51px] rounded-[7px] items-center flex justify-center"
+        >
+          Team
+        </h2>
+        <p class="xl:ml-10 text-[18px] xl:text-left text-center xl:pt-0 pt-5">
+          Meet the skilled and experienced team behind our <br />successful
+          digital marketing strategies
+        </p>
+      </div>
+      <div class="pt-[80px]">
+        <div class="grid xl:grid-cols-3 grid-cols-1 gap-10">
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[105.65px] h-[102.82px]"
+                src="images/team-1.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">John Smith</h4>
+                <p class="">CEO and Founder</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              10+ years of experience in digital marketing. Expertise in SEO,
+              PPC, and content strategy
+            </p>
+          </div>
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] py-10 pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[102.82px] h-[102.82px]"
+                src="images/team-2.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">John Smith</h4>
+                <p class="">Director of Operations</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              7+ years of experience in project management and team leadership.
+              Strong organizational and communication skills
+            </p>
+          </div>
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] py-10 pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[102.82px] h-[102.82px]"
+                src="images/team-3.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">Michael Brown</h4>
+                <p class="">Senior SEO Specialist</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              5+ years of experience in SEO and content creation. Proficient in
+              keyword research and on-page optimization
+            </p>
+          </div>
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] py-10 pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[102.82px] h-[102.82px]"
+                src="images/team-4.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">Emily Johnson</h4>
+                <p class="">PPC Manager</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              3+ years of experience in paid search advertising. Skilled in
+              campaign management and performance analysis
+            </p>
+          </div>
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] py-10 pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[102.82px] h-[102.82px]"
+                src="images/team-5.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">Brian Williams</h4>
+                <p class="">Social Media Specialist</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              4+ years of experience in social media marketing. Proficient in
+              creating and scheduling content, analyzing metrics, and building
+              engagement
+            </p>
+          </div>
+          <div
+            class="border border-black border-b-[6px] rounded-[45px] px-[35px] py-10 pt-10 relative"
+          >
+            <div class="flex">
+              <img
+                class="w-[102.82px] h-[102.82px]"
+                src="images/team-6.png"
+                alt=""
+              />
+              <div class="pt-[53.82px] pl-5">
+                <h4 class="text-xl font-medium">Sarah Kim</h4>
+                <p class="">Content Creator</p>
+              </div>
+            </div>
+            <div class="absolute top-10 right-[35px]">
+              <i
+                class="fa-brands fa-linkedin-in bg-black w-[34px] h-[34px] text-[#B9FF66] rounded-full flex items-center justify-center"
+              ></i>
+            </div>
+            <div class="border-black border-b-2 my-7"></div>
+            <p class="text-[18px]">
+              2+ years of experience in writing and editing Skilled in creating
+              compelling, SEO-optimized content for various industries
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-10 xl:text-end">
+        <button
+          class="text-xl bg-black px-[35px] xl:w-[269px] w-full py-5 rounded-[14px] text-white border border-black hover:border hover:border-black hover:bg-transparent transition-all duration-300 hover:text-black"
+        >
+          See all team
+        </button>
+      </div>
+    </div>
+    <!-- team area end -->
+    <!-- testimonial area start -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[100px] max-w-[1440px]">
+      <div class="xl:flex pb-20">
+        <h2
+          class="text-[40px] xl:mx-0 mx-auto font-medium text-center bg-[#B9FF66] w-[255px] h-[51px] rounded-[7px] items-center flex justify-center"
+        >
+          Testimonials
+        </h2>
+        <p class="xl:ml-10 text-[18px] xl:text-left text-center xl:pt-0 pt-5">
+          Hear from Our Satisfied Clients: Read Our Testimonials <br />
+          to Learn More about Our Digital Marketing Services
+        </p>
+      </div>
+      <div class="bg-[#191A23] pt-[84px] rounded-[45px] text-white">
+        <div class="swiper testimonial">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide px-5 py-5">
+              <div
+                class="border border-[#B9FF66] px-[52px] py-12 rounded-[45px] xl:w-[606px] xl:h-[266px]"
+              >
+                <p>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </p>
+              </div>
+              <div class="pt-5 pl-20">
+                <h4 class="text-xl font-medium text-[#B9FF66]">John Smith</h4>
+                <p class="text-[18px]">Marketing Director at XYZ Corp</p>
+              </div>
+            </div>
+            <div class="swiper-slide px-5 py-5">
+              <div
+                class="border border-[#B9FF66] px-[52px] py-12 rounded-[45px] xl:w-[606px] xl:h-[266px]"
+              >
+                <p>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </p>
+              </div>
+              <div class="pt-5 pl-20">
+                <h4 class="text-xl font-medium text-[#B9FF66]">John Smith</h4>
+                <p class="text-[18px]">Marketing Director at XYZ Corp</p>
+              </div>
+            </div>
+            <div class="swiper-slide px-5 py-5">
+              <div
+                class="border border-[#B9FF66] px-[52px] py-12 rounded-[45px] xl:w-[606px] xl:h-[266px]"
+              >
+                <p>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </p>
+              </div>
+              <div class="pt-5 pl-20">
+                <h4 class="text-xl font-medium text-[#B9FF66]">John Smith</h4>
+                <p class="text-[18px]">Marketing Director at XYZ Corp</p>
+              </div>
+            </div>
+            <div class="swiper-slide px-5 py-5">
+              <div
+                class="border border-[#B9FF66] px-[52px] py-12 rounded-[45px] xl:w-[606px] xl:h-[266px]"
+              >
+                <p>
+                  "We have been working with Positivus for the past year and
+                  have seen a significant increase in website traffic and leads
+                  as a result of their efforts. The team is professional,
+                  responsive, and truly cares about the success of our business.
+                  We highly recommend Positivus to any company looking to grow
+                  their online presence."
+                </p>
+              </div>
+              <div class="pt-5 pl-20">
+                <h4 class="text-xl font-medium text-[#B9FF66]">John Smith</h4>
+                <p class="text-[18px]">Marketing Director at XYZ Corp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonial area end -->
+    <!-- contact area start -->
+    <div class="container mx-auto xl:px-[100px] px-5 pt-[140px] max-w-[1440px]">
+      <div class="xl:flex pb-20 xl:text-left text-center">
+        <h2
+          class="xl:text-[40px] text-2xl font-medium text-center xl:mx-0 mx-auto bg-[#B9FF66] w-[255px] h-[51px] rounded-[7px] items-center flex justify-center"
+        >
+          Contact Us
+        </h2>
+        <p class="xl:ml-10 text-[18px] xl:pt-0 pt-5">
+          Connect with Us: Let's Discuss Your <br />
+          Digital Marketing Needs
+        </p>
+      </div>
+      <div class="bg-[#F3F3F3] pt-[60px] relative rounded-[45px]">
+        <div class="grid xl:grid-cols-2 grid-cols-1">
+          <div class="xl:pl-[100px] px-5 pb-20">
+            <div class="flex">
+              <div class="form-control pt-5 mr-[35px]">
+                <label class="cursor-pointer flex items-center">
+                  <input
+                    type="radio"
+                    name="radio-10"
+                    class="radio checked:bg-[#B9FF66] border border-black mr-7 w-7 h-7"
+                    checked="checked "
+                  />
+                  <span class="label-text text-[18px]">Say Hi</span>
+                </label>
+              </div>
+              <div class="form-control pt-5">
+                <label class="cursor-pointer flex items-center">
+                  <input
+                    type="radio"
+                    name="radio-10"
+                    class="radio checked:bg-[#B9FF66] border border-black mr-7 w-7 h-7"
+                    checked="checked"
+                  />
+                  <span class="label-text text-[18px]">Get a Quote</span>
+                </label>
+              </div>
+            </div>
+            <div class="pt-10">
+              <div class="label">
+                <span class="label-text">Name*</span>
+              </div>
+              <input
+                type="text"
+                placeholder="Type here"
+                class="input input-bordered border-black w-full xl:w-[556px] h-[59px] rounded-[14px] focus:border-none"
+              />
+              <div class="label pt-[25px]">
+                <span class="label-text">Email*</span>
+              </div>
+              <input
+                type="email"
+                placeholder="Type here"
+                class="input input-bordered w-full xl:w-[556px] border border-black h-[59px] rounded-[14px] focus:border-none"
+              />
+              <div class="label pt-[25px]">
+                <span class="label-text">Message*</span>
+              </div>
+              <textarea
+                class="textarea textarea-bordered border-black w-full xl:w-[556px] h-[190px] rounded-[14px] focus:border-none"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <div class="pt-10">
+              <button
+                class="bg-[#191A23] xl:w-[556px] w-full h-[68px] text-xl text-white rounded-[14px] border border-black hover:border hover:border-black hover:bg-transparent transition-all duration-300 hover:text-black"
+              >
+                Send Message
+              </button>
+            </div>
+          </div>
+          <div class="absolute -right-[303px] hidden xl:block">
+            <img
+              class="w-[649px] h-[648px]"
+              src="images/contact-img.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact area end -->
+    <!-- footer area start -->
+    <div
+      class="container mx-auto xl:px-[100px] pt-[140px] xl:max-w-[1441px] w-full"
+    >
+      <div
+        class="bg-[#191A23] text-white pt-[55px] pb-[50px] rounded-[45px] xl:px-[60px] px-5"
+      >
+        <div class="xl:flex gap-x-[130px]">
+          <img class="xl:mx-0 mx-auto" src="images/Logo.png" alt="" />
+          <div class="xl:text-left text-center xl:pt-0 pt-10">
+            <ul class="xl:flex xl:gap-x-10">
+              <li class="text-[18px]">
+                <a class="xl:underline" href="#">About us</a>
+              </li>
+              <li class="text-[18px] xl:py-0 py-5">
+                <a class="xl:underline" href="#">Services</a>
+              </li>
+              <li class="text-[18px]">
+                <a class="xl:underline" href="#">Use Cases</a>
+              </li>
+              <li class="text-[18px] xl:py-0 py-5">
+                <a class="xl:underline" href="#">Pricing</a>
+              </li>
+              <li class="text-[18px]">
+                <a class="xl:underline" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hidden xl:block">
+            <div class="flex gap-x-5 xl:justify-start justify-center">
+              <a href="#">
+                <i
+                  class="fa-brands fa-linkedin-in bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+              <a href="#">
+                <i
+                  class="fa-brands fa-facebook-f bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+              <a href="#">
+                <i
+                  class="fa-brands fa-twitter bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="xl:pt-[66px] pt-10 xl:text-left text-center">
+          <h2
+            class="text-xl text-black font-medium xl:mx-0 mx-auto text-center bg-[#B9FF66] w-[126px] h-[51px] rounded-[7px] items-center flex justify-center"
+          >
+            Contact Us
+          </h2>
+          <div class="xl:flex gap-x-[154px] mb-[50px]">
+            <div class="pt-[27px]">
+              <p class="text-[18px]">Email: <span>info@positivus.com</span></p>
+              <p class="text-[18px] py-5">Phone: <span> 555-567-8901</span></p>
+              <p class="text-[18px]">Address: <span> 1234 Main St</span></p>
+              <p class="text-[18px]">Moonstone City, Stardust State 12345</p>
+            </div>
+            <div
+              class="bg-[#292A32] xl:px-10 px-5 py-[58px] xl:mt-0 mt-10 rounded-[14px]"
+            >
+              <div class="xl:flex">
+                <input
+                  class="bg-transparent border rounded-[14px] px-[35px] xl:w-[285px] w-full h-[67px]"
+                  type="email"
+                  name="Email"
+                  id=""
+                  placeholder="Email"
+                />
+                <button
+                  class="bg-[#B9FF66] rounded-[14px] xl:w-[249px] w-full h-[68px] xl:ml-5 xl:mt-0 mt-5 text-black"
+                >
+                  Subscribe to news
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="xl:hidden block">
+            <div
+              class="flex gap-x-5 xl:justify-start justify-center xl-pb-0 pb-10"
+            >
+              <a href="#">
+                <i
+                  class="fa-brands fa-linkedin-in bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+              <a href="#">
+                <i
+                  class="fa-brands fa-facebook-f bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+              <a href="#">
+                <i
+                  class="fa-brands fa-twitter bg-white text-black w-[30px] h-[30px] rounded-full flex justify-center items-center"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="pt-[50px] xl:flex gap-x-10 xl:text-left text-center">
+          <p class="text-[18px] xl:pb-0 pb-5">
+            © 2025 Positivus. All Rights Reserved.
+          </p>
+          <a class="text-[18px] underline" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <!-- footer area end -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
   </body>
